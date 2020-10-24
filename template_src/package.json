@@ -5,6 +5,7 @@
   "description": "A sample svelte application that runs in a cordova enviroment.",
   "main": "bundle.js",
   "scripts": {
+    "postinstall": "cordova prepare",
     "dev": "rollup -w -c",
     "build": "rollup -c",
     "validate": "svelte-check"
