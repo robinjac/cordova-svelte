@@ -1,0 +1,49 @@
+{
+  "name": "io.cordova.hellocordova",
+  "displayName": "HelloCordova",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -w -c",
+    "build": "rollup -c",
+    "validate": "svelte-check"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@rollup/plugin-typescript": "^6.0.0",
+    "@tsconfig/svelte": "^1.0.10",
+    "cordova-browser": "^6.0.0",
+    "cordova-plugin-browsersync-gen2": "^1.1.7",
+    "cordova-plugin-camera": "^5.0.0",
+    "cordova-plugin-file": "^6.0.2",
+    "cordova-plugin-whitelist": "^1.3.4",
+    "rollup": "^2.32.1",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^6.1.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "sass": "^1.27.0",
+    "svelte": "^3.29.3",
+    "svelte-check": "^1.0.61",
+    "svelte-preprocess": "^4.5.1",
+    "tslib": "^2.0.3",
+    "typescript": "^4.0.3"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-browsersync-gen2": {},
+      "cordova-plugin-file": {},
+      "cordova-plugin-camera": {}
+    },
+    "platforms": [
+      "browser"
+    ]
+  }
+}
